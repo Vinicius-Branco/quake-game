@@ -1,0 +1,26 @@
+{
+  "name": "quake-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Vinicius-Branco/quake-game.git",
+  "author": "Vinicius Oliveira <viniciusoliveirabranco@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch --verbose --watchAll"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "babel-jest": "27.5.1",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "27.5.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "27.1.3",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  }
+}
